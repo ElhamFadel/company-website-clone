@@ -1,0 +1,37 @@
+.title_h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1d2124;
+  line-height: 3.125rem;
+  position: relative;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.aboutus__container {
+  padding: 0 5rem;
+}
+.aboutus__content {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.para {
+  color: #646464;
+  font-size: 0.95rem;
+  line-height: 2;
+}
+.aboutus__image {
+  width: 50%;
+}
+.aboutus__text {
+  width: 50%;
+}
+.bold {
+  font-weight: 500;
+}
+.aboutus__text__content {
+  padding: 1rem;
+}
+.aboutus__image__content {
+  padding: 1rem;
+}

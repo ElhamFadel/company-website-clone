@@ -1,5 +1,11 @@
-interface AppProps {}
+import { Home } from './pages';
+import './App.css';
 
-export const App: React.FC<AppProps> = ({}) => {
-  return <></>;
+const App: React.FC = ({}) => {
+  return (
+    <>
+      <Home />
+    </>
+  );
 };
+export default App;
