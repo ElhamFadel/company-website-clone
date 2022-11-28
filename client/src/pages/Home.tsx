@@ -1,4 +1,4 @@
-import { About, Services } from '../components/HomeSections';
+import { About, Services, ProcessWork } from '../components/HomeSections';
 const Home: React.FC = ({}) => {
   return (
     <>
@@ -6,9 +6,7 @@ const Home: React.FC = ({}) => {
       {/* Hero */}
       <About />
       <Services />
-      {/* aboutus */}
-      {/* soultion & service */}
-      {/* How it Works */}
+      <ProcessWork />
       {/* Why Choose DASH? */}
       {/* Time Zone Aligned */}
       {/* Agile and effective */}

@@ -1,15 +1,13 @@
+import { HeadingSection } from '../HeadingSection';
 const ProcessWork: React.FC = ({}) => {
   return (
     <div className="Process__container">
       <div className="Process__content">
-        <div className="Process__header">
-          <h4>How it Works</h4>
-          {/* icon */}
-          <p className="sub-title">
-            We embrace organized and effective process to get the best results
-            for our clients.
-          </p>
-        </div>
+        <HeadingSection
+          title="How it Works"
+          subTitle="We embrace organized and effective process to get the best results
+            for our clients."
+        />
         <div className="Process__content">
           <div className="icon__container"> icon </div>
           <div className="Process__text">

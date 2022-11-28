@@ -15,7 +15,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.heading__icon {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .heading__icon .heading__wrap img {
@@ -33,4 +39,5 @@ line {
 }
 .sub-title {
   color: #474747;
+  line-height: 2;
 }

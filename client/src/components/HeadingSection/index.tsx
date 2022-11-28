@@ -1,9 +1,18 @@
 import { rocket } from '../../assets';
 import './style.css';
-export const HeadingSection: React.FC = ({}) => {
+
+interface HeadingSection {
+  subTitle: string;
+  title: string;
+}
+
+export const HeadingSection: React.FC<HeadingSection> = ({
+  subTitle,
+  title,
+}) => {
   return (
     <div className="Services__heading">
-      <h2 className="title_h2">Solutions & Services</h2>
+      <h2 className="title_h2">{title}</h2>
       <div className="heading__icon">
         <div className="heading__wrap">
           <svg
@@ -40,7 +49,7 @@ export const HeadingSection: React.FC = ({}) => {
         </div>
       </div>
       {/* icons */}
-      <p className="sub-title">We bring your ideas to life!</p>
+      <p className="sub-title">{subTitle}</p>
     </div>
   );
 };
