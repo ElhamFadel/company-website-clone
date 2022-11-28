@@ -1,0 +1,36 @@
+.Services__heading {
+  margin-bottom: 1rem;
+  margin-left: 2.3rem;
+}
+.title_h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1d2124;
+  line-height: 3.125rem;
+  position: relative;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.Services__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.heading__icon .heading__wrap img {
+  width: 11%;
+}
+line {
+  stroke: #332fb0c6;
+  stroke-width: 2;
+}
+#dash__right {
+  margin-right: 1.5rem;
+}
+#dash__left {
+  margin-left: 1.5rem;
+}
+.sub-title {
+  color: #474747;
+}

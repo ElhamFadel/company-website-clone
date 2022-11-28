@@ -1,10 +1,11 @@
-import { About } from '../components/HomeSections';
+import { About, Services } from '../components/HomeSections';
 const Home: React.FC = ({}) => {
   return (
     <>
       {/* <Header /> */}
       {/* Hero */}
       <About />
+      <Services />
       {/* aboutus */}
       {/* soultion & service */}
       {/* How it Works */}

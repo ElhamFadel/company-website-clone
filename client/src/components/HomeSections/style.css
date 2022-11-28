@@ -1,12 +1,3 @@
-.title_h2 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  color: #1d2124;
-  line-height: 3.125rem;
-  position: relative;
-  margin-bottom: 15px;
-  font-family: 'Poppins', sans-serif;
-}
 .aboutus__container {
   padding: 0 5rem;
 }
@@ -32,6 +23,18 @@
 .aboutus__text__content {
   padding: 1rem;
 }
+
+/* .heading__wrap::after {
+    position: absolute;
+    content: " ";
+    border-bottom: 2px dashed #342fb0;
+    width: 9rem;
+    margin: 0.5rem;
+} */
+
 .aboutus__image__content {
   padding: 1rem;
+}
+.Services__header {
+  text-align: center;
 }
