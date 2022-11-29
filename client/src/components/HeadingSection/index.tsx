@@ -2,7 +2,7 @@ import { rocket } from '../../assets';
 import './style.css';
 
 interface HeadingSection {
-  subTitle: string;
+  subTitle?: string;
   title: string;
 }
 

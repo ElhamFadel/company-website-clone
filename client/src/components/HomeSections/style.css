@@ -199,3 +199,23 @@ input[type='submit'] {
 .question__right img {
   width: 80%;
 }
+/* quote */
+.quote-container {
+  height: 18rem;
+  padding: 0px 20rem;
+  text-align: -webkit-center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(60deg, #5a49f8 0%, #7a64f2 100%);
+}
+.quote-conten {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.quote-conten p {
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
