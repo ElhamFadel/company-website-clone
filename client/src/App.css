@@ -59,4 +59,7 @@ nav {
 }
 p {
   color: #646464;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  line-height: 2;
 }

@@ -74,6 +74,12 @@
   -webkit-box-orient: vertical;
   line-height: 2;
 }
+.process__card__container {
+  display: flex;
+  width: 30.5rem;
+  justify-content: space-between;
+}
+
 .Services__cards {
   display: flex;
   flex-flow: wrap;
@@ -82,4 +88,114 @@
   background: #000;
   height: 55rem;
   padding: 3rem 0;
+}
+/* process */
+.Process__row {
+  display: flex;
+}
+.circle__color {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 10rem;
+  line-height: 1;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 2.1875rem 0 rgb(119 119 120 / 13%);
+  box-shadow: 0 0 2.1875rem 0 rgb(119 119 120 / 13%);
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.process__card__text {
+  width: 19.7rem;
+}
+/* Question */
+.question__content {
+  display: flex;
+  flex-direction: row;
+}
+.question__left {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+.question__left__content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.title-h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1d2124;
+  line-height: 3.125rem;
+  position: relative;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.question__content .row {
+  display: flex;
+  justify-content: space-between;
+}
+.question__content .row .input-wraper {
+  height: 48px;
+  width: 48%;
+}
+.message {
+  margin-bottom: 1.25rem;
+  display: block;
+  width: -webkit-fill-available;
+  padding-left: 0.5rem;
+  border-radius: 4px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  outline: none;
+  height: 10rem;
+  padding-top: 0.5rem;
+}
+input[type='submit'] {
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  z-index: 2;
+  padding: 12px 28px;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #5a49f8;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+}
+.form-container {
+  padding-top: 4rem;
+}
+.question__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.question__right img {
+  width: 80%;
 }
