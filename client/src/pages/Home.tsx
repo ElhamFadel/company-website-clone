@@ -1,9 +1,11 @@
+import { Footer } from '../components';
 import {
   About,
   Services,
   ProcessWork,
   Question,
   Quote,
+  Articles,
 } from '../components/HomeSections';
 const Home: React.FC = ({}) => {
   return (
@@ -15,6 +17,8 @@ const Home: React.FC = ({}) => {
       <ProcessWork />
       <Question />
       <Quote />
+      <Articles />
+      <Footer />
       {/* Why Choose DASH? */}
       {/* Time Zone Aligned */}
       {/* Agile and effective */}

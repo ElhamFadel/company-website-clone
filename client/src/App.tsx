@@ -1,10 +1,10 @@
-import { Home } from './pages';
+import { Jobs } from './pages';
 import './App.css';
 
 const App: React.FC = ({}) => {
   return (
     <>
-      <Home />
+      <Jobs />
     </>
   );
 };

@@ -7,3 +7,7 @@ export { default as f3 } from './feature3.png';
 export { default as rocket } from './rocket.png';
 export { default as process } from './process1.png';
 export { default as illustration } from './illustration21.png';
+export { default as flutter } from './flutter.jpeg';
+export { default as img2 } from './img2.png';
+export { default as img3 } from './img3.jpg';
+export { default as footer } from './footer1_bg.png';
